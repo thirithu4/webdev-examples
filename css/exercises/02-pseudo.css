@@ -2,3 +2,19 @@
   width: 600px;
   margin: 40px auto;
 }
+
+p::first-line{
+  color: brown;
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
+p::first-letter{
+  color: rgb(22, 12, 160);
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
+p:hover{
+  background-color: var(--teal);
+}

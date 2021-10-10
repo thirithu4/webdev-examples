@@ -12,12 +12,12 @@
 
 /* Attribute selectors */
 
-li[class~='dog'] {
-  color: var(--magenta);
+li[id='cat']{
+  color: var(--teal)
 }
 
-li[id^='c'] {
-  color: var(--teal);
+li[class^= 'p'{
+  color: var(--green)
 }
 
 li[class*='do'] {
@@ -28,10 +28,11 @@ li[class$='g'] {
   color: var(--violet);
 }
 
+
 /* Parent and Sibiling selectors */
 
 section li {
-  color: var(--violet);
+  color: var(--green);
 }
 
 .first ~ li {
